@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  box-shadow: 0 0 5px silver;
+  border-radius: 1rem;
+  /* padding: 2rem; */
+  margin: 2rem;
+}
+h1 {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: column;
+}
+.todo-form label {
+  padding: 0.5rem;
+}
+
+#todo-input {
+  border: 6px solid royalblue;
+}
